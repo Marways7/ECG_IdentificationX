@@ -12,9 +12,9 @@
 
 <!-- Badges Row 1: Social -->
 <p>
-<a href="https://github.com/Marways7/ECG_IdentificationX/stargazers"><img src="https://img.shields.io/github/stars/Marways7/ECG_IdentificationX?style=for-the-badge&logo=github&color=yellow" alt="Stars"></a>
-<a href="https://github.com/Marways7/ECG_IdentificationX/network/members"><img src="https://img.shields.io/github/forks/Marways7/ECG_IdentificationX?style=for-the-badge&logo=github&color=blue" alt="Forks"></a>
-<a href="https://github.com/Marways7/ECG_IdentificationX/issues"><img src="https://img.shields.io/github/issues/Marways7/ECG_IdentificationX?style=for-the-badge&logo=github&color=red" alt="Issues"></a>
+<a href="https://github.com/Marways7/ECG_IdentificationX/stargazers"><img src="https://img.shields.io/github/stars/Marways7/ECG_IdentificationX?style=for-the-badge&logo=github&color=yellow&cacheSeconds=3600" alt="Stars"></a>
+<a href="https://github.com/Marways7/ECG_IdentificationX/network/members"><img src="https://img.shields.io/github/forks/Marways7/ECG_IdentificationX?style=for-the-badge&logo=github&color=blue&cacheSeconds=3600" alt="Forks"></a>
+<a href="https://github.com/Marways7/ECG_IdentificationX/issues"><img src="https://img.shields.io/github/issues/Marways7/ECG_IdentificationX?style=for-the-badge&logo=github&color=red&cacheSeconds=3600" alt="Issues"></a>
 </p>
 
 <!-- Badges Row 2: Tech -->
@@ -517,7 +517,7 @@ This project is licensed under the **MIT License**
 ### ⭐ 如果这个项目对你有帮助，请点个 Star！
 
 <a href="https://github.com/Marways7/ECG_IdentificationX/stargazers">
-<img src="https://img.shields.io/github/stars/Marways7/ECG_IdentificationX?style=for-the-badge&logo=github&color=yellow" alt="Stars">
+<img src="https://img.shields.io/github/stars/Marways7/ECG_IdentificationX?style=for-the-badge&logo=github&color=yellow&cacheSeconds=3600" alt="Stars">
 </a>
 
 <br/><br/>
