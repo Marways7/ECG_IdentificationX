@@ -1,0 +1,41 @@
+# ECG Identity Recognition System - SOTA Implementation
+# Python 3.10+
+
+# ============ Core Scientific Computing ============
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# ============ Signal Processing ============
+PyWavelets>=1.4.0          # 小波变换去噪
+neurokit2>=0.2.4           # ECG/HRV专业分析库
+biosppy>=1.0.0             # 生物信号处理
+heartpy>=1.2.6             # 心率分析
+
+# ============ Machine Learning ============
+scikit-learn>=1.3.0
+xgboost-cpu>=2.0.0  # 使用CPU版本避免CUDA依赖问题
+lightgbm>=4.1.0
+
+# ============ Deep Learning ============
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ============ Visualization ============
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.17.0
+
+# ============ UI Framework ============
+streamlit>=1.28.0
+streamlit-echarts>=0.4.0   # ECharts可视化
+streamlit-lottie>=0.0.5    # 动画效果
+
+# ============ Utilities ============
+tqdm>=4.66.0
+joblib>=1.3.0
+pyyaml>=6.0.0
+loguru>=0.7.0
+
+# ============ Optional: GPU Acceleration ============
+# cupy-cuda11x>=12.0.0     # CUDA加速 (可选)

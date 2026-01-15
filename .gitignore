@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Streamlit
+streamlit.log
+.streamlit/
+
+# OS specific
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Project specific artifacts
+outputs/figures
+outputs/reports
+models/saved/best_model.pth
+
+# Documentation and data files
+docs/PPT_Script.md
+docs/Video_Script.md
+ECG_data/A.csv
+ECG_data/B.csv
+ECG_data/C.csv
+ECG_data/D.csv
+ECG_data/E.csv
+ECG_data/F.csv
