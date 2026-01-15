@@ -506,19 +506,9 @@ This project is licensed under the **MIT License**
 
 ---
 
-## 📈 Star History
+## Star History
 
-<div align="center">
-
-<a href="https://star-history.com/#Marways7/ECG_IdentificationX&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Marways7/ECG_IdentificationX&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Marways7/ECG_IdentificationX&type=Date" />
-    <img alt="Star History" src="https://api.star-history.com/svg?repos=Marways7/ECG_IdentificationX&type=Date" width="70%" />
-  </picture>
-</a>
-
-</div>
+[![Star History Chart](https://api.star-history.com/svg?repos=Marways7/ECG_IdentificationX&type=date&legend=top-left)](https://www.star-history.com/#Marways7/ECG_IdentificationX&type=date&legend=top-left)
 
 ---
 
