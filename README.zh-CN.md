@@ -40,7 +40,7 @@
 
 ---
 
-**🌍 语言**: [🇬🇧 English](README.md) | [🇨🇳 简体中文](README.zh-CN.md) | [🇹🇼 繁體中文](README.zh-Hant.md)
+**🌍 语言**: [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-Hant.md)
 
 </div>
 
