@@ -88,7 +88,7 @@ This project is a practical deliverable for the **Production Internship Course**
 
 As an emerging biometric modality, ECG offers unique advantages over traditional methods:
 
-| 特性 | Advantage |
+| Feature | Advantage |
 |:---:|:---|
 | 🔐 **Liveness Detection** | ECG signals can only be captured from living subjects, naturally providing anti-spoofing capability. |
 | 🧬 **Uniqueness** | Each person has unique cardiac electrophysiological characteristics. |
@@ -100,7 +100,7 @@ As an emerging biometric modality, ECG offers unique advantages over traditional
 - **Data Collection**: Collected ECG data from 6 subjects using an ADS1292R acquisition device.
 - **Sampling Specs**: 250Hz sampling rate, 24-bit ADC precision, ~5 minutes of data per person.
 - **Core Technologies**: Signal preprocessing + Pan-Tompkins R-peak detection + 1D-CNN deep learning classification.
-- **Final Result**: Test Accuracy达到 **98.44%**，满足实际应用需求
+- **Final Result**: Test accuracy reached **98.44%**, meeting practical application requirements.
 
 ---
 
@@ -124,7 +124,7 @@ As an emerging biometric modality, ECG offers unique advantages over traditional
 
 ### ⚡ Lightweight & Efficient
 
-| 特性 | Value |
+| Feature | Value |
 |:---|:---:|
 | Parameters | **~44,000** |
 | Inference Time | **<10ms** |
@@ -139,19 +139,19 @@ As an emerging biometric modality, ECG offers unique advantages over traditional
 ### 🔬 Professional Algorithms
 
 - 📈 **Pan-Tompkins** R-peak Detection
-- 🌊 **db6小波** 自适应Denoising
-- ❤️ **HRV分析** 时/频/Nonlinear
-- 🎵 **MFCC** Frequency DomainFeatures提取
+- 🌊 **db6 wavelet** adaptive denoising
+- ❤️ **HRV analysis** (time-domain / frequency-domain / nonlinear)
+- 🎵 **MFCC** frequency-domain feature extraction
 
 </td>
 <td width="50%">
 
-### 🤖 AI Smart Analysis
+### 🤖 AI-Powered Analysis
 
-- 🧠 **DeepSeek AI** Assisted diagnosis
-- 📝 **Smart reports** Auto generation
-- 📊 **Interactive** 可视化界面
-- 🎨 **Academic-style** 专业UI
+- 🧠 **DeepSeek AI** for assisted analysis
+- 📝 **Smart reports** with automatic generation
+- 📊 **Interactive** visualization interface
+- 🎨 **Academic-style** professional UI
 
 </td>
 </tr>
@@ -169,27 +169,27 @@ As an emerging biometric modality, ECG offers unique advantages over traditional
 
 <br/><br/>
 
-### 🎯 Identity Identification
-<img src="screenshots/identification.png" alt="Identity Identification" width="80%"/>
-<br/><sub>实时Identity Identification与置信度展示</sub>
+### 🎯 Identity Recognition
+<img src="screenshots/identification.png" alt="Identity Recognition" width="80%"/>
+<br/><sub>Real-time identity recognition with confidence display</sub>
 
 <br/><br/>
 
 ### 📈 Model Evaluation
 <img src="screenshots/model_evaluation.png" alt="Model Evaluation" width="80%"/>
-<br/><sub>混淆矩阵、准确率、F1 Score等评估Metric</sub>
+<br/><sub>Confusion matrix, accuracy, F1 score, and other evaluation metrics</sub>
 
 <br/><br/>
 
-### 🤖 AI Smart Analysis
-<img src="screenshots/ai_analysis.png" alt="AI Smart Analysis" width="80%"/>
+### 🤖 AI-Powered Analysis
+<img src="screenshots/ai_analysis.png" alt="AI-Powered Analysis" width="80%"/>
 <br/><sub>DeepSeek AI-assisted report generation</sub>
 
 </div>
 
 ---
 
-## �📊 性能Metric
+## 📊 Performance Metrics
 
 <div align="center">
 
@@ -232,7 +232,7 @@ As an emerging biometric modality, ECG offers unique advantages over traditional
 |:---|:---:|
 | Python | 3.10+ |
 | PyTorch | 2.0+ |
-| CUDA | 11.8+ (可选) |
+| CUDA | 11.8+ (optional) |
 
 </td>
 <td>
@@ -240,7 +240,7 @@ As an emerging biometric modality, ECG offers unique advantages over traditional
 | Required Setup | Description |
 |:---|:---|
 | DeepSeek API | AI analysis feature |
-| `.env` 文件 | Store API keys |
+| `.env` file | Store API keys |
 
 </td>
 </tr>
@@ -253,14 +253,14 @@ As an emerging biometric modality, ECG offers unique advantages over traditional
 git clone https://github.com/Marways7/ECG_IdentificationX.git
 cd ECG_IdentificationX
 
-# 2️⃣ 安装Dependency
+# 2️⃣ Install dependencies
 pip install -r requirements.txt
 
 # 3️⃣ Configure API key
 echo "DEEPSEEK_API_KEY=your_api_key_here" > .env
 echo "DEEPSEEK_BASE_URL=https://api.deepseek.com/v1" >> .env
 
-# 4️⃣ 准备ECG数据 (见下方Description)
+# 4️⃣ Prepare ECG data (see details below)
 # Put your ECG files into `ECG_data/`
 
 # 5️⃣ Train model
@@ -273,7 +273,7 @@ streamlit run app.py
 <details>
 <summary>📁 <b>How to prepare ECG data?</b></summary>
 
-> ⚠️ **隐私Description**: Because ECG data is personal biometric data and privacy-sensitive, this repository does not include raw data.
+> ⚠️ **Privacy Notice**: ECG data is personally identifiable biometric data. To protect privacy, this repository does not include raw ECG recordings.
 
 Place your ECG files in `ECG_data/` with the following format:
 
@@ -286,8 +286,8 @@ Place your ECG files in `ECG_data/` with the following format:
 **Example file structure**:
 ```
 ECG_data/
-├── A.csv    # Data of subject A
-├── B.csv    # 受试者B的数据
+├── A.csv    # Data for subject A
+├── B.csv    # Data for subject B
 └── ...      # More subjects
 ```
 
@@ -306,12 +306,12 @@ timestamp,Channel 1,Channel 2,Channel 3
 
 1. Visit [DeepSeek Platform](https://platform.deepseek.com/)
 2. Sign up / log in
-3. 创建 API Key
+3. Create an API key
 4. Copy it into `.env`
 
 </details>
 
-> 🌐 启动后Visit **http://localhost:8501**
+> 🌐 After startup, visit **http://localhost:8501**
 
 ---
 
@@ -359,12 +359,12 @@ flowchart LR
 📦 ECG_IdentificationX
  ┣ 📂 ECG_data/          # Raw data (A-F, total 2558 beats)
  ┣ 📂 src/
- ┃ ┣ 📂 preprocessing/   # 信号Preprocessing
- ┃ ┣ 📂 feature_extraction/  # Features提取
- ┃ ┣ 📂 models/          # Deep LearningModel
+ ┃ ┣ 📂 preprocessing/   # Signal preprocessing
+ ┃ ┣ 📂 feature_extraction/  # Feature extraction
+ ┃ ┣ 📂 models/          # Deep learning models
  ┃ ┗ 📂 utils/           # Utility functions
  ┣ 📂 docs/              # Technical docs
- ┣ 📄 app.py             # Web界面
+ ┣ 📄 app.py             # Web interface
  ┣ 📄 train.py           # Training script
  ┗ 📄 .env               # API config
 ```
@@ -373,11 +373,11 @@ flowchart LR
 
 ## 🔬 Core Algorithms
 
-### 信号Preprocessing
+### Signal Preprocessing
 
 ```mermaid
 flowchart LR
-    A["Raw ADC"] --> B["DC removal"] --> C["50Hz notch"] --> D["带通Filtering"] --> E["小波Denoising"] --> F["Clean ECG"]
+    A["Raw ADC"] --> B["DC removal"] --> C["50Hz notch"] --> D["Band-pass filtering"] --> E["Wavelet denoising"] --> F["Clean ECG"]
     style A fill:#ffcdd2
     style F fill:#c8e6c9
 ```
@@ -386,7 +386,7 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    A["ECG"] --> B["带通5-15Hz"] --> C["差分"] --> D["平方"] --> E["积分"] --> F["Threshold"] --> G["R peaks"]
+    A["ECG"] --> B["Band-pass 5-15Hz"] --> C["Differentiation"] --> D["Squaring"] --> E["Integration"] --> F["Thresholding"] --> G["R peaks"]
     style A fill:#e3f2fd
     style G fill:#c8e6c9
 ```
@@ -430,7 +430,7 @@ Input[175] → Conv(32,k7) → Conv(64,k5) → Conv(128,k3) → GAP → FC(64) �
 
 <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn&theme=light" alt="Tech" />
 
-| Category | 技术 |
+| Category | Technology |
 |:---:|:---|
 | 🐍 Language | Python 3.10+ |
 | 🧠 Deep Learning | PyTorch 2.0+ |
@@ -447,12 +447,12 @@ Input[175] → Conv(32,k7) → Conv(64,k5) → Conv(128,k3) → GAP → FC(64) �
 | 📄 Document | 📝 Content |
 |:---|:---|
 | [📘 System Overview](docs/Technical_Documentation_Part1_Overview.md) | Architecture, data specs |
-| [📗 信号Preprocessing](docs/Technical_Documentation_Part2_Preprocessing.md) | Filtering、Denoising |
+| [📗 Signal Preprocessing](docs/Technical_Documentation_Part2_Preprocessing.md) | Filtering, denoising |
 | [📙 R-peak Detection](docs/Technical_Documentation_Part3_R_Peak_Detection.md) | Pan-Tompkins |
-| [📕 Features提取](docs/Technical_Documentation_Part4_HRV_Features.md) | HRV、MFCC |
-| [📓 Deep Learning](docs/Technical_Documentation_Part5_Deep_Learning_Models.md) | CNNModel |
-| [📔 Training & Evaluation](docs/Technical_Documentation_Part6_Training.md) | 训练策略 |
-| [📒 性能总结](docs/Technical_Documentation_Part7_Performance_Summary.md) | Result analysis |
+| [📕 Feature Extraction](docs/Technical_Documentation_Part4_HRV_Features.md) | HRV, MFCC |
+| [📓 Deep Learning](docs/Technical_Documentation_Part5_Deep_Learning_Models.md) | CNN architecture |
+| [📔 Training & Evaluation](docs/Technical_Documentation_Part6_Training.md) | Training strategy |
+| [📒 Performance Summary](docs/Technical_Documentation_Part7_Performance_Summary.md) | Result analysis |
 
 ---
 
