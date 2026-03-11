@@ -456,8 +456,6 @@ Input[175] → Conv(32,k7) → Conv(64,k5) → Conv(128,k3) → GAP → FC(64) �
 
 ---
 
-## 🇬🇧 English
-
 ## 📄 License
 
 <div align="center">
